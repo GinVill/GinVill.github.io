@@ -1,0 +1,78 @@
+.body {
+    background: linear-gradient(35deg, #CCFFFF, #c08686);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    ;
+}
+
+.title {
+    color: #138496;
+}
+
+.h1 {
+    color: #138496 !important;
+    font: Tahoma;
+    font-style: oblique 10deg;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+
+.carousel-item {
+    background-color: transparent;
+    height: 100px;
+}
+
+.quote-container {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: x-large;
+    line-height: 3;
+    justify-content: center;
+    height: 80vw !important;
+    width: 100vw !important;
+}
+
+.navbar {
+    justify-content: space-around;
+    background-color: #D5CCDA !important;
+}
+
+.fa {
+    color: #138496;
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.bg {
+    background-image: url("resources/beach.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box-container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    page-break-after: always;
+}
+
+.box1 {
+    width: 50%;
+    height: 50%
+}
+
+.box2 {
+    width: 50%;
+    height: 50%;
+}
+
+
+#about-me {}
+
+#resources {}
