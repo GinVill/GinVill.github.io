@@ -1,6 +1,6 @@
 .body {
-    background: linear-gradient(35deg, #CCFFFF, #c08686);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
+    font-family: 'Xanh Mono', monospace;
     ;
 }
 
@@ -10,16 +10,20 @@
 
 .h1 {
     color: #138496 !important;
-    font: Tahoma;
+    font: 'Xanh Mono';
     font-style: oblique 10deg;
-    font-weight: bolder;
+    font-weight: 600;
     font-size: 50px;
 }
 
 
 .carousel-item {
     background-color: transparent;
-    height: 100px;
+    height: 60vw;
+    font-size: xx-large;
+    margin: 100px;
+    padding: 10px;
+    flex-wrap: wrap;
 }
 
 .quote-container {
@@ -56,10 +60,11 @@
 }
 
 .box-container {
+    justify-content: center;
+    align-content: center;
     display: flex;
-    height: 100%;
-    width: 100%;
-    page-break-after: always;
+    height: 100vw;
+    width: 100vw;
 }
 
 .box1 {
@@ -72,7 +77,20 @@
     height: 50%;
 }
 
+.about-me-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100vw;
+    width: 100vw;
 
-#about-me {}
+}
 
-#resources {}
+
+#about-me {
+    display: flex;
+}
+
+#resources {
+    display: flex;
+}
