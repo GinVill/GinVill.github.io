@@ -1,6 +1,6 @@
 .body {
     background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
-    font-family: 'Xanh Mono', monospace;
+    font-family: 'Quicksand', sans-serif;
     ;
 }
 
@@ -8,22 +8,41 @@
     color: #138496;
 }
 
+.img {
+    max-width: 100% !important;
+    height: auto;
+}
+
 .h1 {
     color: #138496 !important;
-    font: 'Xanh Mono';
+    font: 'Quicksand';
     font-style: oblique 10deg;
     font-weight: 600;
     font-size: 50px;
 }
 
+.portfolio {
+    height: 100vw;
+    width: 100vw;
+    text-align: center;
+    padding: 100px;
+    font-size: xx-large;
+}
 
 .carousel-item {
     background-color: transparent;
     height: 60vw;
     font-size: xx-large;
+    color: #4A4E69;
     margin: 100px;
     padding: 10px;
-    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.img {
+    max-width: 100%;
+    height: auto;
+
 }
 
 .quote-container {
@@ -59,38 +78,59 @@
     background-size: cover;
 }
 
-.box-container {
-    justify-content: center;
-    align-content: center;
-    display: flex;
+.about-me-header {
+    color: #138496;
+    text-align: center;
+    padding: 25px;
+}
+
+.about-me-column-carousel {
+    font: Quicksand;
+    color: #138496;
+    padding: 30px;
+    float: left;
+    width: 50vw;
     height: 100vw;
-    width: 100vw;
+    align-self: center;
 }
 
-.box1 {
-    width: 50%;
-    height: 50%
-}
-
-.box2 {
-    width: 50%;
-    height: 50%;
-}
-
-.about-me-container {
-    display: flex;
-    justify-content: center;
-    align-content: center;
+.about-me-column-info {
+    font: Quicksand;
+    color: #138496;
+    padding: 30px;
+    float: right;
+    width: 40vw;
     height: 100vw;
+}
+
+a:link {
+    color: #138496;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #4A4E69;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.myresources-heading {
+    display: grid;
+    font: Quicksand;
+    font-weight: bolder;
+    color: #138496;
+    padding: 120px;
+    height: 25vw;
     width: 100vw;
-
+    grid-column: span;
 }
 
-
-#about-me {
-    display: flex;
-}
-
-#resources {
-    display: flex;
+.myresources-column {
+    font: Quicksand;
+    color: #138496;
+    padding: 30px;
+    float: left;
+    width: 33.33%;
+    height: 75vw;
 }
