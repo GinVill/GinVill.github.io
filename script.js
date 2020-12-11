@@ -1,5 +1,5 @@
 document.getElementById("myForm").addEventListener("submit", function (event) {
-  event.preventDefault;
+  event.preventDefault();
   console.log("submit");
 });
 
